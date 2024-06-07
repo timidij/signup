@@ -1,0 +1,73 @@
+*{
+    /* background-color: red; */
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+display: flex;
+align-items: center;
+height: 100vh;
+justify-content: center;
+}
+.logo{
+    display: flex;
+    justify-content: flex-end;
+}
+.top{
+    color: #3E53C3;
+}
+main{
+    display: flex;
+   
+    /* top: -350; */
+
+}
+.first{
+    display: flex;
+    flex-direction: column;
+}
+.left{
+    padding: 40px;
+    width: 500px;
+}
+.name,.emailgender,.passwordconfirm,.eduexperience{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.lastname,.email,.password,.confirm,.education,.experience,.tellusmore,.tellus{
+    display: flex;
+    flex-direction: column;
+}
+.input{
+    width: 100%;
+}
+button{
+    border-radius: 10px 0px 10px 0px;
+    background-color: #3E53C3;
+    color: white;
+    width: 222px;
+    height: 40px;
+    margin-top: 40px;
+}
+.buttons{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.imagemain{
+    width: 287px;
+    height: 500px;
+}
+
+
+
+
+
+
+
+
+
+
